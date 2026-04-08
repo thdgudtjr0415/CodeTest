@@ -1,6 +1,4 @@
-package programmers;
-
-import java.util.Scanner;
+package programmers.beginner;
 
 /*
  * 우주여행을 하던 머쓱이는 엔진 고장으로 PROGRAMMERS-962 행성에 불시착하게 됐습니다.

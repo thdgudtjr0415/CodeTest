@@ -1,6 +1,5 @@
-package programmers;
+package programmers.beginner;
 
-import java.util.Scanner;
 import java.util.Arrays;
 
 public class 진료순서정하기 {
