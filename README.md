@@ -13,11 +13,24 @@ codingtest/
     │   ├── bronze/
     │   └── silver/
     └── programmers/
+        └── beginner/
 ~~~
 
 ## 🛠 사용 언어
 
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white)
+
+---
+
+## 📓 풀이 노션
+
+문제 풀이 현황과 학습 기록을 노션에서 관리합니다.
+
+![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white)
+
+👉 [백준 풀이 노션](https://www.notion.so/33314597a9b780148916e3dbfa772bdc?v=33314597a9b781ac90df000c6de6875c)
+
+👉 [프로그래머스 풀이 노션](https://www.notion.so/33314597a9b7808485d9f9a91a4791a2?v=33314597a9b78139808d000c79195a8f)
 
 ---
 
