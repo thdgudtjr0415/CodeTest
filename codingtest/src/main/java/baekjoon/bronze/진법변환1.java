@@ -1,4 +1,4 @@
-package baekjoon.bronze2;
+package baekjoon.bronze;
 import java.util.*;
 /*
  * 1. ZZZZZ 이건 숫자 / 36 진법
@@ -12,7 +12,7 @@ import java.util.*;
 // 입력 ZZZZZ 36
 // 출력 60466175
 
-public class 진법변환{
+public class 진법변환1 {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         String N = sc.next();
