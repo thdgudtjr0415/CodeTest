@@ -18,4 +18,3 @@ public class 세로읽기 {
         System.out.println(s.solution(new String("programmers"),1, 1));
     }
 }
-`
