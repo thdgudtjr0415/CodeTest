@@ -46,3 +46,6 @@ public class 왼쪽오른쪽 {
         System.out.println(Arrays.toString(s.solution2(new String[]{"l"}))); // 공백
     }
 }
+
+
+
