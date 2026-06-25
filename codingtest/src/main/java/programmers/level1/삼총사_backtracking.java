@@ -1,4 +1,4 @@
-package programmers.level1.Day07;
+package programmers.level1;
 
 public class 삼총사_backtracking {
     // 전역 변수로 result 을 정의 내려서 다른 메서드들도 사용 가능하게 하기
