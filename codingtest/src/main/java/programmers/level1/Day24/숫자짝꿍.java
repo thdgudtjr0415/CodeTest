@@ -1,5 +1,6 @@
 package programmers.level1.Day24;
 
+// 문제 요약
 
 public class 숫자짝꿍 {
     public String solution(String X, String Y) {
