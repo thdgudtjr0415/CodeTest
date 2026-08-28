@@ -1,4 +1,4 @@
-package programmers.level2.Day11;
+package programmers.level2;
 
 // 각 가지수 즉, 1 ~ n개의 까지의 조합의 수
 // 예를 들어 5개의 원형 수열 이 있다면 1개씩 조합 부터 5가지 조합 까지 이렇게 해야함

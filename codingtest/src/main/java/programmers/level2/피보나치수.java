@@ -1,4 +1,4 @@
-package programmers.level2.Day04;
+package programmers.level2;
 
 // 피보나치 수 순서
 // 0, 1, 1, 2, 3, 5, 8, 13, 21

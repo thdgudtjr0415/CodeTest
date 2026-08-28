@@ -1,4 +1,4 @@
-package programmers.level2.Day01;
+package programmers.level2;
 
 // A는 내림차순, B는 오름 차순으로 하면 끝날 문제
 

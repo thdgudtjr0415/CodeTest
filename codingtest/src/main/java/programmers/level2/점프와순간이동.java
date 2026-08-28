@@ -1,4 +1,4 @@
-package programmers.level2.Day09;
+package programmers.level2;
 
 // 이 문제는 거꾸로 생각해보자
 

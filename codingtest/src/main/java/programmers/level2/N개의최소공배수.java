@@ -1,4 +1,4 @@
-package programmers.level2.Day10;
+package programmers.level2;
 
 // lcm = Least(최소) Common(공통) Multiple(배수)
 // gcd = Greatest(최대) Common(공통) Divisor(약수)

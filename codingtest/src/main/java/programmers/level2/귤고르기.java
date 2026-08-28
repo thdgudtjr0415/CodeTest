@@ -1,4 +1,4 @@
-package programmers.level2.Day06;
+package programmers.level2;
 
 // 종류의 최소화를 기준으로 작업을 시행해야함
 //1 ≤ k ≤ tangerine의 길이 ≤ 100,000

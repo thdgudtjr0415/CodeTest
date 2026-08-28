@@ -1,4 +1,4 @@
-package programmers.level2.Day02;
+package programmers.level2;
 
 public class JadenCase문자열만들기 {
     public String solution1(String s) {

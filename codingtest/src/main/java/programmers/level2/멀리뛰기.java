@@ -1,4 +1,4 @@
-package programmers.level2.Day08;
+package programmers.level2;
 
 // 칸의 수 n개, 한번에 뛸때는 1 또는 2로 전진
 // 마지막에 1234567로 나눈 나머지 리턴

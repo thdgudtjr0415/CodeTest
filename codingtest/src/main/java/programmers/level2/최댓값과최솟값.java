@@ -1,4 +1,4 @@
-package programmers.level2.Day01;
+package programmers.level2;
 
 // 최솟값 + " " + 최댓값 으로 하면 됨
 

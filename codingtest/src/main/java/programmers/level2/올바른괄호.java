@@ -1,4 +1,4 @@
-package programmers.level2.Day01;
+package programmers.level2;
 
 import java.util.Stack;
 
