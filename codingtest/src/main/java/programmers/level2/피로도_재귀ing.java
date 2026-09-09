@@ -13,7 +13,7 @@ package programmers.level2;
 //            최선의 값 = Math.max(최선의 값, 받아온 값)
 //            되돌리기 (그 던전을 다시 안 쓴 걸로)
 //    return 최선의 값
-public class 피로도_재귀 {
+public class 피로도_재귀ing {
     public int solution(int k, int[][] dungeons){
         // 완전 탐색
         int count = 0;
@@ -39,7 +39,7 @@ public class 피로도_재귀 {
     }
 
     public static void main(String[] args){
-        피로도_재귀 s = new 피로도_재귀();
+        피로도_재귀ing s = new 피로도_재귀ing();
         System.out.println(s.solution(80, new int[][]{{80,20},{50,40},{30,10}})); // 3
     }
 }
