@@ -6,7 +6,7 @@ package programmers.level2;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class 게임맵최단거리 {
+public class 게임맵최단거리_보류 {
     public int solution (int[][] maps){
         int n = maps.length;
         int m = maps[0].length;
@@ -58,7 +58,7 @@ public class 게임맵최단거리 {
     }
 
     public static void main(String[] ars){
-        게임맵최단거리 s = new 게임맵최단거리();
+        게임맵최단거리_보류 s = new 게임맵최단거리_보류();
         System.out.println(s.solution(new int[][]{
                 {1,0,1,1,1},
                 {1,0,1,0,1},
