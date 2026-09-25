@@ -23,6 +23,7 @@ package programmers.level2;
 public class 모음사전 {
     int index = 0; // 사전 인덱스
     public int solution(String word) {
+        index = 0;
         char[] arr = {'A', 'E', 'I', 'O', 'U'}; // 모음 배열
         String temp = ""; // 이제 단어 채워갈 temp 공간
 
@@ -31,18 +32,26 @@ public class 모음사전 {
         return index;
     }
 
-    private void dfs(String temp, char[] arr, String word) {
-
-
+    private boolean dfs(String temp, char[] arr, String word) {
+        if(!temp.isEmpty()) index++;
+        if(temp.equals(word)) return true;
+        if(temp.length() < 5){
+            for(int i = 0; i < 5; i++){
+               boolean flag = dfs(temp +arr[i], arr, word);
+               if(flag){
+                   return true;
+               }
+            }
+        }
+        return false;
     }
-
 
     public static void main(String[] args) {
         모음사전 s = new 모음사전();
 //        int r1 = s.solution("AAAAE");
 //        assert r1 == 6 : "결과 = " + r1;
         System.out.println(s.solution("AAAAE")); //6
-//        System.out.println(s.solution("AAAE")); //10
+        System.out.println(s.solution("AAAE")); //10
 //        System.out.println(s.solution("I")); //1563
 //        System.out.println(s.solution("EIO")); //1189
     }
