@@ -7,7 +7,7 @@ public class 일로만들기 {
             int num = num_list[i];
             while(num > 1){
                 result++;
-                if(num%2==-0){
+                if(num%2 == 0){
                     num/=2;
                 }else {
                     num = (num-1)/2;
