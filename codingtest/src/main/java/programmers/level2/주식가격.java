@@ -55,6 +55,19 @@ public class 주식가격 {
     public static void main(String[] args){
         주식가격 s = new 주식가격();
 //        System.out.println(Arrays.toString(s.solution1(new int[]{1,2,3,2,3}))); //4,3,1,1,0
-        System.out.println(Arrays.toString(s.solution2(new int[]{1,2,3,2,3}))); //4,3,1,1,0
+//        System.out.println(Arrays.toString(s.solution2(new int[]{1,2,3,2,3}))); //4,3,1,1,0
+
+
+        long start1 = System.nanoTime();
+        int[] r1 = s.solution1(new int[]{1,2,3,2,3});
+        long end1 = System.nanoTime();
+        System.out.println("solution1: " + (end1 - start1) / 1_000_000.0 + "ms");
+
+        long start2 = System.nanoTime();
+        int[] r2 = s.solution2(new int[]{1,2,3,2,3});
+        long end2 = System.nanoTime();
+        System.out.println("solution2: " + (end2 - start2) / 1_000_000.0 + "ms");
+
+//        System.out.println("답이 같은가? " + Arrays.equals(r1, r2));
     }
 }
