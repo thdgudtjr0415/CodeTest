@@ -40,3 +40,7 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Claude Code ###
+CLAUDE.md
+코테-진행기록.md
