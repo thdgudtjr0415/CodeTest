@@ -1,4 +1,4 @@
-package programmers.level2.미분류;
+package programmers.level2.정렬_그리디;
 
 // k는 지워야하는 숫자 개수
 // 숫자를 앞에서부터 하나씩

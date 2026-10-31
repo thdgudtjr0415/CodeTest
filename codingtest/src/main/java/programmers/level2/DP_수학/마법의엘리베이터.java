@@ -1,4 +1,4 @@
-package programmers.level2.미분류;
+package programmers.level2.DP_수학;
 
 // 버튼: -1, +1, -10, +10, -100, +100 ... (절댓값이 10의 거듭제곱)
 // 아이디어: 일의 자리부터 한 자리씩 0으로 만든다.
