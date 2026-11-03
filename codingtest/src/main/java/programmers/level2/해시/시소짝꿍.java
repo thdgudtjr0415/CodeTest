@@ -1,4 +1,4 @@
-package programmers.level2.미분류;
+package programmers.level2.해시;
 
 // 중심으로부터 2(m), 3(m), 4(m) 거리의 지점에 좌석
 //180 → 1/2배
