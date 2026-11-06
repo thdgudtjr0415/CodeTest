@@ -1,4 +1,4 @@
-package programmers.level2.미분류;
+package programmers.level2.DP_수학;
 
 //arrayA의 최대공약수를 구해요. 이걸 g라고 할게요.
 //g의 약수를 큰 수부터 하나씩 확인해요.
@@ -23,7 +23,7 @@ public class 숫자카드나누기 {
                 break;
             }
         }
-        // arrayB 먼저
+        // arrayA 검사
         for(int i = 0; i < n; i++){
             if(arrayA[i] % gcdB == 0){
                 gcdB = 0;
