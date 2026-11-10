@@ -1,4 +1,4 @@
-package programmers.level2.미분류;
+package programmers.level2.그래프_탐색;
 
 // N개의 마을, 1번 마을에서 K 시간 이하로 배달할 수 있는 마을만 주문을 받는다
 // road의 {a, b, c}: a번 마을과 b번 마을을 잇는 양방향 도로, c는 걸리는 시간
@@ -58,10 +58,10 @@ public class 배달 {
         }
         return answer;
     }
-    private void mapView(Map<Integer, List<int[]>> graph){
-        for (int key : graph.keySet()) {
+    private void mapView(Map<Integer, List<int[]>> map){
+        for (int key : map.keySet()) {
             System.out.print(key + "번 마을: ");
-            for (int[] next : graph.get(key))  System.out.print(Arrays.toString(next) + " ");
+            for (int[] next : map.get(key))  System.out.print(Arrays.toString(next) + " ");
             System.out.println();
         }
     }
